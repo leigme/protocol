@@ -1,5 +1,5 @@
-package protocol
+package tcp
 
-type Protocol interface {
+type Tcp interface {
 	Hit(data [][]byte) (name []byte, ok bool)
 }
